@@ -5,8 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_DISABLE_EPPE := true
-
 # Inherit some common Evolution  stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_IS_PIXEL := true
